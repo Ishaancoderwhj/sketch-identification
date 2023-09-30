@@ -1,0 +1,32 @@
+body{
+    background-color: greenyellow;
+}
+
+h1{
+    background-color: cyan;
+    color:chocolate;
+}
+
+#show_sketch{
+    float:right;
+}
+
+p{
+    font-size:26px;
+    color:rgb(0, 26, 255);
+    padding-top:10px;
+}
+
+canvas{
+    border:5px dotted blue;
+    border-radius:20px;
+    margin-top:50px;
+    animation-name:random;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes random{
+    from{box-shadow:3px 3px 38px red};
+    to{box-shadow:3px 3px 38px blue};
+}
